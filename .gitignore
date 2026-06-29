@@ -1,0 +1,35 @@
+# Environment and secrets
+.env
+.env.*
+*.env
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.python-version
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and generated artifacts
+data/
+datasets/
+*.csv
+*.tsv
+*.xlsx
+*.jsonl
+*.parquet
+*.pkl
+*.joblib
+chroma/
+chroma_db/
+vectorstore/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
